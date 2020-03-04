@@ -1,0 +1,227 @@
+/*--general css--*/
+*
+{
+    margin:0;
+    padding:0;
+}
+
+body
+{
+    background-color: #f1f3f4;
+    font-family:sans-serif;
+}
+
+/*---menu bar css---*/
+.top-nav
+{
+    height: 90px;
+    top: 0;
+    position: sticky;
+    background: #ececec;
+    margin-bottom: 20px;
+    border-bottom: 3px solid grey;
+    z-index: 2;
+}
+
+.logo
+{
+    height: 80px;
+    margin:5px 10px;
+}
+
+.form-control
+{
+    margin-top: 9px;
+    margin-left 30px;
+    border: 1px solid grey !important;
+    border-top-left-radius: 20px !important;
+    border-bottom-left-radius: 20px !important;
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+    box-shadow:none !important;
+}
+
+.input-group-text
+{
+    height:40px;
+    background: grey;
+    border: 1px solid grey;
+    margin: 8px 10px 3px 0;
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+    border-top-right-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
+    cursor: pointer;
+}
+.search
+{
+    display: inline-flex;
+    width: 60%;
+}
+
+.menu ul
+{
+    display: inline-flex;
+    float: right;
+    margin-top:-70px;
+}
+
+.menu ul li
+{
+    border-left: 1px solid grey;
+    list-style-type: none;
+    padding: 15px 35px;
+    text-align: center;
+    background-color: #ececec;
+    cursor:pointer;
+}
+
+.menu ul li a
+{
+    font-size: 16px;
+    font-weight: bold;
+    color:black;
+    text-decoration: none;
+}
+
+/*-------adjusting the menu for screen size change-------*/
+@media only screen and (max-width:1700px)
+{
+    .top-nav{
+        height: 100px;
+    }
+    .search{
+        width: 100%;
+    }
+    .menu{
+        width: 100%;
+    }
+    .menu ul{
+        margin:10px 0;
+        width:100%;
+    }
+    .menu ul li{
+        height: 67px;
+        width: 100%;
+    }
+}
+
+
+/*---slider css----*/
+
+.slider{
+    width:80%;
+    margin-left: 10%;
+    padding: 0 10px;
+}
+
+.carousel
+{
+    box-shadow: 2px 2px 5px 2px rgba(0,0,0,0.5);
+}
+
+.carousel-indicators
+{
+    z-index: 1;
+}
+
+/*--Product css---*/
+
+.checked{
+    color: orange;
+}
+
+.product-top img{
+    width:100%;
+}
+
+.overlay-right{
+    display:block;
+    opacity:0;
+    position: absolute;
+    top: 10%;
+    margin-left: 0;
+    width: 70px;
+}
+
+.overlay-right .fa{
+    cursor: pointer;
+    background-color: #fff;
+    color: black;
+    height: 35px;
+    width: 35px;
+    font-size:20px;
+    padding: 7px;
+    margin-top 5%;
+    margin bottom: 5%;
+}
+
+.overlay-right .btn-secondary{
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.product-top:hover .overlay-right{
+    opacity: 1;
+    margin-left:2%;
+    transition: 0.5s;
+}
+
+.overlay-left{
+    cursor: pointer;
+    background-color: #fff;
+    color: black;
+    height: 35px;
+    width: 35px;
+    font-size: 20px;
+    padding:7px;
+}
+
+.product-bottom h3{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.product-bottom h5{
+    font-size: 15px;
+    padding-bottom:10px;
+}
+
+/*--single product--*/
+
+.single-product{
+    margin-top:70px;
+}
+
+#buybtn{
+    background-color: #ececec;
+    margin-bottom: 10px;
+}
+
+
+
+
+/*---footer css----*/
+.footer{
+    margin-top: 50px;
+    background: #ececec;
+    color: black;
+}
+
+.footer h1{
+    font-size: 15px;
+    margin:25px 0;
+}
+
+.footer p{
+    font-size: 12px;
+}
+
+
+.credits{
+    margin-bottom: -80px;
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 20px;
+}

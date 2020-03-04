@@ -1,0 +1,74 @@
+/* responsive.css  */
+
+/*  500 to 960 pixels */  
+@media screen and (min-width: 31.25em) {
+  
+nav ul li {
+	width: 33%;
+}
+  
+
+#col1 {
+	width: 43%;
+	}
+
+#col2 {
+	width: 43%;
+}
+
+
+#col3 {
+	clear: both;
+	float: none;
+	width: 90%;
+	margin: 0 1em 1em 1.5em; 
+}
+
+
+
+
+#col3 img {
+		float: left; 
+		width: 30%;
+		margin: .5em 1em 1em 0;
+		}
+
+div.wrapper {min-width: 600px;}
+
+}
+
+/*  under 500 px  */
+
+@media screen and (max-width: 31.25em ) {  
+
+header h1 {
+	font-size: 48px;
+	padding: 0;
+	text-align: center;
+}
+
+nav ul li {width: 50%}
+
+#col1, #col2, #col3 {
+	margin: 0;
+	float: none;
+	width: 100%;
+}
+
+img {
+   display: block;
+   margin: 0 auto;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+

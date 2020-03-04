@@ -1,0 +1,21 @@
+h1{
+	margin-left: 20px;
+	margin-right: 20px;
+	border-bottom: 4px;
+	border-left: 4px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
+
+#sidebar{
+	width: 200px;
+	border: 1px;
+	float: left;
+	margin-left: 20px;
+	text-align: center;
+	background-color: #cff;
+}
+p{
+	margin-left: 20px;
+	margin-right: 40px;
+}

@@ -1,0 +1,83 @@
+﻿/* main.css */
+
+body {font-family: arial;
+}
+
+div.wrapper {
+	max-width: 1220px;
+	margin: 0 auto;
+}
+
+header { 
+	background-image: url(../images/grasswithsky.png);
+	background-repeat: repeat-x;
+	position: bottom;
+	height: 158px;
+	width: 100%;
+}
+
+header h1 {
+	font-family: 'Love Ya Like A Sister', georgia;
+	letter-spacing: 4px;
+	font-size: 72px;
+	padding-top: .5em;
+	padding-left: .5em;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	}
+
+nav ul li {
+	list-style: none;
+	float: left;
+	font-size: 93%;
+}
+
+nav ul li a {
+	display: block;
+	font-weight: bold;
+	padding: .625em 3.5em; /* 10px 15px */
+	text-decoration: none;
+	color: #000;
+	border-right: 1px solid #bababa;
+}
+
+img {max-width: 100%}
+
+
+
+#col1 {
+	float: left;
+	width: 30%;
+	margin: 1em 1em 1em 2em;
+}
+
+ #col2 {
+	float: left;
+	width: 30%;
+	margin: 1em 2em 0 0;
+}
+
+#col3{
+	float: left; 
+	width: 30%;
+	margin-top: 1em;	
+}
+	
+footer {
+	clear: both;
+		}
+footer h3 {
+	font-family: 'Love Ya Like A Sister', georgia;
+	background-color: #94d4ff;
+	padding: .5em 0 .5em .5em;
+	background-repeat: repeat-x;
+	position: bottom;
+}
+
+}
+
+
+
